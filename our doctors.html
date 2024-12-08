@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctors Choosing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .search-bar {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            font-size: 1rem;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px #000000e6;
+            background-color: #c1b6dc;
+
+        }
+        
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #007bff;
+            color: white;
+            margin-bottom: 20px;
+        }
+        .doctors-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 20px;
+        }
+        .doctors-container2 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+            margin-left: 10%;
+        }
+        .doctor-box {
+            width: 90%;
+            max-width: 600px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .doctor-color {
+            height: 50px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .doctor-color:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <!-- Search bar at the top -->
+    <input type="text" class="search-bar" placeholder="Search for doctors...">
+
+    <!-- Header text -->
+    <div class="header">
+        <h1>Welcome to the Doctors Choosing Page</h1>
+    </div>
+
+    <!-- Doctors boxes -->
+    <div class="doctors-container">
+        <!-- Doctor 1 -->
+        <div class="doctor-box">
+            <div class="doctor-color" style="background-color: #ff6b6b;" onclick="window.location.href='project3.html'"></div>
+            <p><strong>Name:</strong>Dr.Sagar Anil Shigehalli</p>
+            <p><strong>Age:</strong> 40</p>
+            <p><strong>Degree:</strong> MD</p>
+            <p><strong>Gender:</strong> Male</p>
+        </div>
+
+        <!-- Doctor 2 -->
+        <div class="doctor-box">
+            <div class="doctor-color" style="background-color: #6bc2ff;" onclick="window.location.href='project3.html'"></div>
+            <p><strong>Name:</strong> Dr.Keerthan A.k</p>
+            <p><strong>Age:</strong> 38</p>
+            <p><strong>Degree:</strong> MBBS</p>
+            <p><strong>Gender:</strong> male</p>
+        </div>
+
+        <!-- Doctor 3 -->
+        <div class="doctor-box">
+            <div class="doctor-color" style="background-color: #ffd36b;" onclick="window.location.href='project3.html'"></div>
+            <p><strong>Name:</strong> Dr.Panda</p>
+            <p><strong>Age:</strong> 50</p>
+            <p><strong>Degree:</strong> PhD</p>
+            <p><strong>Gender:</strong> Female</p>
+        </div>
+    </div>
+    <div class="doctors-container2">
+        <!-- Doctor 4 -->
+        <div class="doctor-box">
+            <div class="doctor-color" style="background-color: #8bff6b;" onclick="window.location.href='project3.html'"></div>
+            <p><strong>Name:</strong> Dr.Game of thrones</p>
+            <p><strong>Age:</strong> 42</p>
+            <p><strong>Degree:</strong> MD</p>
+            <p><strong>Gender:</strong> Female</p>
+        </div>
+
+        <!-- Doctor 5 -->
+        <div class="doctor-box">
+            <div class="doctor-color" style="background-color: #b36bff;" onclick="window.location.href='project3.html'"></div>
+            <p><strong>Name:</strong> Dr. Breaking bad</p>
+            <p><strong>Age:</strong> 35</p>
+            <p><strong>Degree:</strong> MBBS</p>
+            <p><strong>Gender:</strong> Female</p>
+        </div>
+    </div>
+</body>
+</html>
